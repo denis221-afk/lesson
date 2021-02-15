@@ -1,0 +1,93 @@
+.promo{
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../../img/header/bg.jpg) center (center/cover) no-repeat;
+
+
+
+
+    &__wrapper{
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+    }
+
+
+
+    &__header{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 42px;
+        /* identical to box height, or 100% */
+
+        text-align: right;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    &__subheader{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        /* identical to box height, or 100% */
+        text-align: right;
+        text-transform: uppercase;
+        color:#fff;
+
+    }
+
+
+
+    &__icons{
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        width: 425px;
+
+    }
+
+    &__icon{
+        
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        /* or 100% */
+        color: #FFFFFF;
+        max-width: 108px;
+        text-align: center;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    &_link{
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: right;
+        margin-right: 5px;
+        color: #FFFFFF;
+
+
+        a{
+            
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: right;
+
+            color: #FFFFFF;
+        }
+    }
+}
