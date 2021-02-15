@@ -1,0 +1,171 @@
+@media screen and (max-width: 1024px){
+
+
+    .container{
+        max-width:none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    .promo{
+        &__header{
+            font-size: 38px;
+        }
+
+        &__subheader{
+            font-size: 20px;
+        }
+
+
+        &__icons{
+            margin-top: 35px;
+        }
+    }
+
+
+    .advantages{
+        &__cards{
+            margin-top: 65px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+  
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .promo{
+
+        &__wrapper{
+            align-items:center;
+        }
+        &__header{
+            font-size: 38px;
+        }
+
+        &__subheader{
+            font-size: 20px;
+        }
+
+
+        &__icons{
+            margin-top: 35px;
+        }
+
+
+
+    }
+
+
+
+    
+    .advantages{
+        &__cards{
+            margin-top: 65px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 425px){
+    .header{
+        &__phone{
+            font-size: 14px;
+        }
+
+
+    .button{
+        width: 135px;
+        height: 25px;
+        font-size: 10px;
+    }
+    
+    
+    &__oficiall{
+        display: none;
+    }
+    }
+
+
+
+    .promo{
+        &__header{
+            font-size: 28px;
+        }
+
+        &__subheader{
+            font-size: 16px;
+        }
+
+        &__icons{
+           width: 380px;
+        }
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 320px){
+
+    .header{
+        &__phone{
+            font-size: 14px;
+        }
+
+
+    .button{
+        width: 135px;
+        height: 25px;
+        font-size: 10px;
+    }
+    
+    
+    &__oficiall{
+        display: none;
+    }
+    }
+
+
+
+    .promo{
+        &__header{
+            font-size: 22px;
+        }
+
+        &__subheader{
+            font-size: 12px;
+        }
+
+        &__icons{
+           width: 300px;
+        }
+
+    }
+
+    .button{
+        &_main{
+            width: 270px;
+        }
+    }
+
+
+}
