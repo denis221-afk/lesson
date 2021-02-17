@@ -34,6 +34,28 @@
         }
     }
 
+
+
+
+    .slider{
+        padding: 81px 0;
+    
+    
+        &__inner{
+            width: 550px;
+            margin: 0 auto;
+            img{
+              max-width:500px;
+               height: auto;
+            }
+            
+        }
+
+    
+    }
+
+
+   
   
 }
 
@@ -78,6 +100,27 @@
         }
     }
 
+
+    .consultation{
+       text-align: center;
+       h2{
+           text-align: center;
+           font-size: 28px;
+       }
+
+    }
+
+
+    .consultation__text{
+        max-width:100%;
+    }
+
+
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+
 }
 
 
@@ -117,6 +160,26 @@
            width: 380px;
         }
 
+    }
+
+
+    
+    .slider{
+        padding: 81px 0;
+        
+    
+        &__inner{
+            width: 305px;
+            margin: 0 auto;
+
+            img{
+               max-width:300px;
+               height: auto;
+            }
+            
+        }
+
+    
     }
 
 }

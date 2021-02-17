@@ -1,0 +1,19 @@
+.consultation{
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background-image: url(../../img/header/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__text{
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+        color: #FFFFFF;
+        max-width:427px;
+    }
+}
